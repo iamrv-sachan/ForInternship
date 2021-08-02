@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".DescFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        >
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/round">
+
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="qwrdaahsgdagdhabdjadbjahbh"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/light_blue_200"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/t"
+            android:fontFamily="@font/montserra"
+            android:text="qwrdaahsgdagdhabdjadbjahbh"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
